@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #d9ba99;
+      flex-direction: column;
+    }
+
+    .project-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      max-width: 900px;
+      margin-bottom: 30px;
+      background-color: #b88f6f;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-item .details {
+      max-width: 600px;
+      margin-left: 20px;
+      text-align: left;
+    }
+
+    .project-item img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .details h2 {
+      color: #333;
+    }
+
+    .details p {
+      color: #666;
+    }
+
+    .go-home {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .go-home a {
+      text-decoration: none;
+    }
+
+    .go-home button {
+      background-color: #b88f6f;
+      color: white;
+      border: none;
+      font-weight: 500;
+      font-size: 1.2rem;
+      padding: 10px 25px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: 0.3s ease;
+    }
+
+    .go-home button:hover {
+      background-color: white;
+      color: #4f9deb;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="project-item">
+    <div class="details">
+      <h2>Tic Tac Toe Game (2023)</h2>
+      <p>
+        Created a responsive Tic Tac Toe game using HTML, CSS, and JavaScript. The game allows two players to alternate turns, with the first player starting with "X" and followed by "O". The app checks for win or draw conditions and shows a message when the game ends. Players can reset the game at any point. The background dynamically changes based on the outcome for a more immersive experience.
+      </p>
+      <p>
+        The game alternates turns between the players, with automatic win detection and result display. A reset button is available to start a new round after a win or draw.
+      </p>
+    </div>
+    <img src="tic.png" alt="Tic Tac Toe Game">
+  </div>
+
+  <div class="project-item">
+    <img src="todo.png" alt="To-Do List App">
+    <div class="details">
+      <h2>To-Do List Application (2023)</h2>
+      <p>
+        Developed a To-Do List app using HTML, CSS, and JavaScript. Users can add tasks, display them in a list, and remove them as needed. The app features a datetime-local input for setting deadlines, which are displayed in a user-friendly format. The app is fully responsive, ensuring a smooth experience across different devices.
+      </p>
+      <p>
+        Users can manage tasks by adding, removing, and setting deadlines. The interface is designed to be clean, intuitive, and accessible across multiple devices.
+      </p>
+    </div>
+  </div>
+
+  <div class="go-home">
+    <a href="index.html">
+      <button>Back to Home</button>
+    </a>
+  </div>
+
+</body>
+
+</html>
